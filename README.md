@@ -1,0 +1,6 @@
+# segaMegaDrive
+
+Run:
+```
+$ node index
+```

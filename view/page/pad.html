@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>segaMegaDrive pad</title>
+    <!-- <script type="text/javascript" src="/js/socket.io-1.2.0.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/pad.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+    <div id="pad">
+    	<div class="start btn"></div>
+    	<div class="left btn">
+    		<div class="t"><div></div></div>
+    		<div class="l"><div></div></div>
+    		<div class="r"><div></div></div>
+    		<div class="d"><div></div></div>
+    	</div>
+    	<div class="right btn">
+    		<div class="a"></div>
+    		<div class="b"><div></div></div>
+    		<div class="c"></div>
+    	</div>
+    </div>
+    <div id="fs" onclick="toggleFullScreen()"></div>
+    <script type="text/javascript" src="/js/control.js"></script>
+</body>
+</html>

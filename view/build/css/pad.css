@@ -1,0 +1,138 @@
+body{
+	padding: 0px!important;
+}
+
+#pad{
+	margin: auto;
+	background-image: url('../img/pad.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: contain;
+}
+
+#pad .btn, #pad .left *, #pad .right *{
+	cursor: pointer;
+	position: absolute;
+}
+
+#pad .start{
+	outline: 1px solid red;
+}
+
+#pad .left{
+	width: 100px;
+	height: 30px
+}
+
+#pad .left .t{
+	outline: 1px solid blue;
+	width: 31%;
+	height: 34%;
+	left: 34%;
+}
+
+#pad .left .t div{
+	outline: inherit;
+	width: 220%;
+	height: 250%;
+	margin: -219% -54%;
+	background: blue;
+	opacity: 0.5;
+}
+
+#pad .left .l{
+	outline: 1px solid lime;
+	width: 34%;
+	height: 29%;
+	top: 35%;
+}
+
+#pad .left .l div{
+	outline: inherit;
+	width: 250%;
+	height: 220%;
+	margin: -50% -200%;
+	background: lime;
+	opacity: 0.5;
+}
+
+#pad .left .r{
+	outline: 1px solid red;
+	width: 35%;
+	height: 29%;
+	top: 35%;
+	left: 66%;
+}
+
+#pad .left .r div{
+	outline: inherit;
+	width: 250%;
+	height: 220%;
+	margin: -50% 57%;
+	background: red;
+	opacity: 0.5;
+}
+
+#pad .left .d{
+	outline: 1px solid yellow;
+	width: 30%;
+	height: 36%;
+	top: 65%;
+	left: 35%;
+}
+
+#pad .left .d div{
+	outline: inherit;
+	width: 220%;
+	height: 250%;
+	margin: 60% -55%;
+	background: yellow;
+	opacity: 0.5;
+}
+
+#pad .right{
+	
+}
+
+#pad .right .a{
+	outline: 1px solid red;
+	width: 51.5%;
+	height: 100%;
+	top: 0%;
+	left: -20%;
+}
+
+#pad .right .b{
+	outline: 1px solid blue;
+	width: 32%;
+	height: 150%;
+	top: 0%;
+	left: 33.5%;
+}
+
+#pad .right .b div{
+	outline: inherit;
+	width: 200%;
+	height: 55%;
+	top: 80%;
+	left: -50%;
+	background: blue;
+	opacity: 0.5;
+}
+
+#pad .right .c{
+	outline: 1px solid green;
+	width: 52%;
+	height: 100%;
+	top: 0%;
+	left: 68%;
+}
+
+#fs{
+	position: absolute;
+	top: 85%;
+	left: 45%;
+	width: 10%;
+	background: #795548;
+	height: 10%;
+}
