@@ -8,5 +8,5 @@ $ npm i
 
 Run:
 ```
-$ node index
+$ npm run start
 ```
